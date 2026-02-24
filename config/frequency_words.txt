@@ -1,9 +1,9 @@
 # ═══════════════════════════════════════════════════════════════
-#                    TrendRadar 频率词配置文件
-#                         Version: 1.1.0
+#                    TrendRadar 频率词配置文件# TrendRadar Frequency Word Configuration File
+#                         Version: 1.1.0# 版本：1.1.0# Version: 1.1.0 #
 # ═══════════════════════════════════════════════════════════════
 
-# 可视化配置编辑器地址: https://sansan0.github.io/TrendRadar/
+# 可视化配置编辑器地址: https://sansan0.github.io/TrendRadar/# Address of the Visual Configuration Editor: https://sansan0.github.io/TrendRadar/Address of the Visual Configuration Editor: https://sansan0.github.io/TrendRadar/Address of the Visual Configuration Editor: https://sansan0.github.io/TrendRadar/
 #
 # 凡是左侧有 # 的都是仅供阅读的说明性文字
 #
@@ -27,10 +27,10 @@
 #   震惊              直接写词，包含"震惊"的新闻会被过滤
 #   /赌博|博彩/       用 /.../ 包裹可以匹配多个词（用 | 分隔）
 
-[GLOBAL_FILTER]
+[GLOBAL_FILTER]   (GLOBAL_FILTER)[全局筛选]  （全局筛选）[GLOBAL_FILTER] (GLOBAL_FILTER) [Global Filter]  (Global Filter)
 # 过滤标题党
 震惊
-
+爆火
 
 
 # ───────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@
 # └─────────────────────────────────────────────────────────────┘
 #
 # 4. 用正则表达式匹配多个词（一行搞定）
-#    ────────────────────
+#    ────────────────────# TrendRadar Frequency Word Configuration File#    ────────────────────# 趋势雷达频率词配置文件#    ────────────────────# TrendRadar Frequency Word Configuration File#    ────────────────────# Trend Radar Frequency Word Configuration File
 #    /华为|鸿蒙|任正非/ => 华为
 #
 #    效果：匹配包含"华为"或"鸿蒙"或"任正非"的新闻，显示为"华为"
@@ -106,7 +106,7 @@
 #
 # 5. 精确匹配英文单词（避免误匹配）
 #    ────────────────────
-#    /\bAI\b/i => AI
+#    /\bAI\b/i => AI# 正则表达式 /\bAI\b/i 匹配到 AI 时 => AI#    /\bAI\b/i => When the regular expression /\bAI\b/i matches "AI" => AI#    /\bAI\b/i => AI# 正则表达式 /\bAI\b/i 匹配到 AI 时 => AI#    /\bAI\b/i => When the regular expression /\bAI\b/i matches "AI" => AI#    /\bAI\b/i => AI# 正则表达式 /\bAI\b/i 匹配到 AI 时 => AI#    /\bAI\b/i => When the regular expression /\bAI\b/i matches "AI" => AI#    /\bAI\b/i => AI# 正则表达式 /\bAI\b/i 匹配到 AI 时 => AI#    /\bAI\b/i => When the regular expression /\bAI\b/i matches "AI" => AI
 #
 #    说明：\b 表示单词边界，避免匹配到 "MAIL" 中的 "AI"
 #          /i 表示忽略大小写，"ai"、"AI"、"Ai" 都能匹配
@@ -147,7 +147,7 @@
 #
 # ───────────────────────────────────────────────────────────────
 
-[WORD_GROUPS]
+[WORD_GROUPS]   (WORD_GROUPS)[词组]  （词组）[WORD_GROUPS] (WORD_GROUPS) [phrases]  (phrases)[词组]  (词组)[WORD_GROUPS] (WORD_GROUPS) [短语] [phrases] (phrases) [短语]
 
 # ═══════════════════════════════════════════════════════════════
 #                         企业与品牌
@@ -155,13 +155,13 @@
 
 /胖东来|于东来/ => 胖东来
 
-/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
+/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek"DeepSeek" => "Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek"DeepSeek" => "Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek" DeepSeek" => " Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek深度探索 | 幻方量化 | 梁文锋 | DeepSeek"DeepSeek" => "Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek" DeepSeek" => " Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek" DeepSeek" => " Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek" DeepSeek" => " Deep Exploration | Magic Square Quantification | Liang Wenfeng" DeepSeek - In-depth Exploration | Huanfang Quantitative | Liang Wenfeng | DeepSeek
 
-/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为Huawei
 
 /比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
 
-/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆/DJI|Wang Tao|Osmo|Ronin|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => DJI/DJI|Wang Tao|Osmo|Ronin|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => DJI | Wang Tao | Osmo | Ronin | DJI | RoboMaster | Mavic | Zenmuse / => DJI
 
 /宇树|王兴兴|\bUnitree\b/ => 宇树机器人
 
@@ -176,25 +176,25 @@
 
 申奥
 
-/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东/JD|Liu Qiangdong|京东|Jingdong/ => JD/JD|Liu Qiangdong|Jingdong/ => 京东/JD|刘强东|京东|Jingdong/ => JD
 
-/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
+/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动/Byte|Zhang Yiming|Liang Rubo|Douyin|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => ByteDanceByteDance/Byte | Zhang Yiming | Liang Rubo | Douyin | \bByteDance\b | \bTikTok\b | \bDouyin\b | \bLark\b | \bCapCut\b/ => ByteDance/Byte | Zhang Yiming | Liang Rubo | Douyin | \bByteDance\b | \bTikTok\b | \bDouyin\b | \bLark\b | \bCapCut\b/ => ByteDance
 
-/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
+/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯Tencent
 
-/qwen|minimax|glm/ => 国产开源模型
+/qwen|minimax|glm/ => 国产开源模型/qwen|minimax|glm/ => Domestic open-source models
 
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
+/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉Tesla | Musk | Tesla | Elon Musk | Cybertruck | Model 3 | Model Y | Model S | Model X | FSD => Tesla
 
-/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
+/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达NVIDIA
+/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD/Lisa Su | Ryzen | EPYC | AMD | Ryzen | EPYC | Radeon | Lisa Su/ => AMD
 
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
-/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软/ Microsoft | \bMicrosoft\b | \bWindows\b | \bAzure\b | \bSatya Nadella\b | \bCopilot\b / => Microsoft
+/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌/google | pichai | android | youtube | Google | Alphabet | Android | Chrome | YouTube | Gemini | DeepMind | Waymo/ => Google
+/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果/库克|\iPhone\b|\iPad\b|\MacBook\b|\iOS\b|\Vision Pro\b|\AirPods\b|\Apple\b|\蒂姆·库克\b/ => 苹果
 
 /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude“Anthropic”、“Claude”、“Dario Amodei”中的任何一个匹配到“Claude”
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -228,7 +228,7 @@
 # ═══════════════════════════════════════════════════════════════
 
 [AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/
+/(?<![a-zA-Z])ai(?![a-zA-Z])//(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
 
 [芯片]
@@ -248,7 +248,8 @@
 具身智能
 
 /月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
-
+航天
+卫星
 # 前沿科技
 量子
 脑机
